@@ -74,10 +74,10 @@ with open('Run(2).log', 'r') as f :
             Tput_Data[10][1]= "L End"
         k=k+1
 
-print(T_Data)
+print(Tput_Data)
 with open("out.csv","w") as File:
     wr = csv.writer(File,delimiter="\n")
-    wr.writerow(T_Data)
+    wr.writerow(Tput_Data)
         
 
     
